@@ -1,0 +1,29 @@
+EPICODE School of Technology
+Corso DAPT0624 - Data Analyst Part Time
+Modulo 4 - Google Looker Studio
+Esercitazione Finale
+Faedda Matteo
+
+Link del report Finale:
+https://lookerstudio.google.com/reporting/a96ae7f3-860c-40e7-a4ef-e3ed2bcae7c0
+
+
+Descrizione del procedimento:
+
+Dopo aver scaricato i file dalla piattaforma, ho iniziato una sommaria EDA per capire le caratteristiche dei datasets e la tipologia dei dati che contenevano. Da questa esplorazione, mi sono reso conto che, senza manipolazioni, le possibilità di analisi erano piuttosto limitate, quindi ho deciso di effettuare una previa manipolazione dei dati su Python per cercare di aumentare le informazioni presenti nei dataset, senza però dover ricorrere all'integrazione di nuove fonti dati ma semplicemente cambiando l'impostazione di alcune parti dei dataset.
+
+Nello specifico, la mia attenzione si è concentrata sul fatto che nel dataset contenente la classifica di tutte le edizioni del Festival, le due colonne 'Autori' ed 'Interprete' contenevano spesso una quantità multipla di dati in un unico elemento, perché spesso gli autori della canzone erano più di uno, così come gli interpreti. A questo punto ho avuto l'idea che ha poi indirizzato la tematica finale del mio report e il suo storytelling, ovvero un'analisi incentrata sul cantautorato all'interno del festival cercando per il più possibile di confrontare i dati delle due colonne citate per capire se avessero valori in comune (quindi canzoni opera di cantautori) o se non ne avessero (al contrario, canzoni cantati da cantanti e scritte da autori terzi).
+
+Per quanto riguarda la parte di manipolazione su Python, i procedimenti usati li ho descritti passo dopo passo sotto forma di commenti nelle varie celle di codice, che può essere consultato nel file .ypnb in allegato.
+
+Una volta effettuato questo passaggio, ho importato i datasets necessari all'analisi aggiungendoli come origini dati .csv,  e mi sono dedicato alla stesura del report seguendo questi passaggi:
+- Estrazione di un tema da un logo del Festival di Sanremo trovato sul web;
+- Progettazione dello storytelling e delle varie pagine del report;
+- Unione dei vari set di dati tramite join che permettessero di combinare, a fini di analisi, dati provenienti da divesrsi datasets;
+- Creazione e personalizzazione grafica dei grafici delle varie pagine del report;
+- Stesura delle componenti testuali del report (titoli, descrizioni, ecc...);
+_ Impaginazione e personalizzazione di tutte le pagine del report.
+
+Il risultato finale è visibile al link indicato all'inizio di questo file.
+
+Grazie dell'attenzione!
